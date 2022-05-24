@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            margin:auto;
+            text-align: center;
+            width: 30%;
+        }
+        .parent{
+            display: flex;
+            flex-wrap: wrap;
+            /* border: 1px solid black; */
+            justify-content: space-evenly;
+            border-radius: 30px;
+            background-color: #F5ECE6;
+            margin: auto;
+            margin-top: 50px;
+            padding: 80px 50px;
+            
+        }
+        .parent>div{
+            /* border: 1px solid black; */
+            border-radius: 20px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10px 10px;
+            align-items: center;
+        }
+        .parent>div>p:nth-child(1){
+            background-color: #F5ECE6;
+            padding: 18px 18px;
+            border-radius: 10px;
+        }
+        .parent>div>p+p{
+            text-align: center;
+            margin: auto;
+            margin-bottom: 10px;
+            width: 80%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Ready to realize your career potential?</h1>
+    <div class="parent">
+        <div>
+            <p>1</p>
+            <p>Apply For The Program</p>
+        </div>
+        <div>
+            <p>1</p>
+            <p>Apply For The Program</p>
+        </div>
+        <div>
+            <p>1</p>
+            <p>Apply For The Program</p>
+        </div>
+        <div>
+            <p>1</p>
+            <p>Apply For The Program</p>
+        </div>
+        <div>
+            <p>1</p>
+            <p>Apply For The Program</p>
+        </div>
+        
+    </div>
+</body>
+</html>
